@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<libraryInfo home="D:\javaseJDK\kong" version="1.8.0_181">
+<bootpath>
+<entry path="D:\javaseJDK\kong\lib\resources.jar"/>
+<entry path="D:\javaseJDK\kong\lib\rt.jar"/>
+<entry path="D:\javaseJDK\kong\lib\sunrsasign.jar"/>
+<entry path="D:\javaseJDK\kong\lib\jsse.jar"/>
+<entry path="D:\javaseJDK\kong\lib\jce.jar"/>
+<entry path="D:\javaseJDK\kong\lib\charsets.jar"/>
+<entry path="D:\javaseJDK\kong\lib\jfr.jar"/>
+<entry path="D:\javaseJDK\kong\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="D:\javaseJDK\kong\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="D:\javaseJDK\kong\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>
