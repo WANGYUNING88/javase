@@ -1,0 +1,4 @@
+（1）需要将JNativeCpp.dll ，MasterRDnew.dll,MasterCom.dll复制到c:\windows\system32目录下面（32位的windows操作系统），64位系统需放到
+C:\Windows\SysWOW64目录下面（64位windows操作系统）
+（2）同时：将JNative.jar放到程序目录，加载到工程中或者放到JDK下面 ...\jdk\jre\lib\ext 下,系统会自动加载）
+（3）此例程只适用于32位的JRE

@@ -1,20 +1,5 @@
 INDEX VERSION 1.129+D:\AAAAAA本少的作品\javasefile\javase\.metadata\.plugins\org.eclipse.jdt.core
-1431001585.index
-2106060566.index
-3336395766.index
-2145199933.index
-725442515.index
-2259885352.index
+1152978386.index
 4244785232.index
-3815025548.index
-2864044497.index
-3494997058.index
-422260111.index
-2432682870.index
-1521978550.index
-3596027669.index
-1973507068.index
-1126218240.index
-3912229856.index
-1549723328.index
-1381807715.index
+4157862228.index
+1550463459.index
