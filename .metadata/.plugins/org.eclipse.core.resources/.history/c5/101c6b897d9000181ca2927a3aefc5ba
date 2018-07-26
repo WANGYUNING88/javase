@@ -30,24 +30,4 @@ public class Math {
 
 	}
 
-	public static double toRadians(double angle) {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
-	public static double cos(double radian) {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
-	public static double sin(double radian) {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
-	public static int min(int wid, int hei) {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
 }

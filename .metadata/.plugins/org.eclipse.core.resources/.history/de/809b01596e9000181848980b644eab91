@@ -52,7 +52,7 @@ public class Hanoi {
 		if (num == 1) {
 			System.out.println("\t\t**\t" + count++ + " " + num + "号盘子从" + from + "移动到" + to);
 		} else {
-			moveDish(num - 1, from, to, inner);
+			moveDish(num - 1, from,  to,inner);
 			System.out.println("\t\t**\t" + count++ + " " + num + "号盘子从" + from + "移动到" + to);
 			moveDish(num - 1, inner, from, to);
 		}

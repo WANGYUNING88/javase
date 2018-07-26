@@ -8,7 +8,6 @@ public class Wangdefile {
 		System.out.println("finally");
 		System.out.println("succeed");
 		System.out.println("³É¹¦");
-		alart
 	}
 
 }
