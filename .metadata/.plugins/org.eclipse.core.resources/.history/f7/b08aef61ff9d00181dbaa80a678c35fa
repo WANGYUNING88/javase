@@ -1,0 +1,17 @@
+package com.wang.math;
+
+import java.util.Scanner;
+
+class Main8 extends Thread {
+    public static void main(String args[]) {
+    	Main8 threadOne = new Main8();
+    	Main8 threadTwo = new Main8();
+        threadOne.start();
+        System.out.print("thread one.");
+        threadTwo.start();
+        System.out.print("thread two.");
+    }
+    public void run() {
+        System.out.print("Thread.");
+    }
+}

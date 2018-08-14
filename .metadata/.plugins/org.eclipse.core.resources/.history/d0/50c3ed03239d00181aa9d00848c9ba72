@@ -1,0 +1,21 @@
+package com.wang.math;
+
+import java.util.Scanner;
+
+public class Main {
+	
+
+
+	public static void main(String[] args) {
+		Scanner in = new java.util.Scanner(System.in);
+        System.out
+                .println("Enter  two numbers to start computing: value1 value2");
+        String line = in.nextLine().trim();
+        String[] temp = line.split(" ");
+        int[] nums = new int[2];
+        for (int i = 0; i < temp.length; i++) {    
+            nums[i] = Integer.parseInt(temp[i]);
+            System.out.println("Number "+ i + " is "+nums[i]);
+        }
+    }
+}

@@ -1,0 +1,29 @@
+package com.wang.math;
+
+import java.util.Scanner;
+
+public class Main4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		while (scan.hasNext()) {
+			int m = scan.nextInt();
+			String line1 = scan.nextLine();
+			String line2 = scan.nextLine();
+			String line3 = scan.nextLine();
+			getString(line1);
+			getString(line2);
+			getString(line3);
+
+		}
+	}
+	public static String[] getString(String str){
+		String[] numStr = str.split(";");
+		return numStr;
+	}
+	public static int[][] getInt(String str){
+		String[] numStr = str.split(",");
+		return null;
+	}
+}
