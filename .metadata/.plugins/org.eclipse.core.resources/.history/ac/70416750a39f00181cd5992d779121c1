@@ -1,0 +1,36 @@
+package com.wang.math;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+
+public class Main13 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		
+        int m = scan.nextInt();
+        int n = scan.nextInt();     
+        
+        int[] num = new int[m];
+        for (int i =0;i<num.length;i++){
+        	num[i] = scan.nextInt();  
+        }
+        
+        System.out.println(getMath(m,n));
+	}
+	
+	public static int getMath(int m,int n){
+
+		if(m%n==0){
+			return m/n;
+		}else{
+			return m/n+1;
+		}
+		
+	}
+
+	
+	
+}
