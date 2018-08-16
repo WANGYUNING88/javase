@@ -26,17 +26,17 @@ public class Main14 {
 		String[] aStr = getStringShuZu(a);
 		String[] bStr = getStringShuZu(b);
 		
-		for(int i = 0;i<cha+1;i++){
+		for(int i = 0;i<cha;i++){
 			int sum = 0;
 			if(aStr[0].equals(bStr[i])){
 				sum++;
-				for(int j=1;j<aStr.length;j++){
-					if(aStr[j].equals(bStr[i+j])){
+				for(int j=1;j<aStr.length;i++){
+					if(aStr[j].equals(bStr[i])){
 						sum++;
 					}
 				}
 			}
-			max = Math.max(max, sum+cha);
+			max = Math.max(max, sum);
 		}
 		
 		

@@ -18,7 +18,7 @@ public class Main14 {
 		}
 	}
 	public static int gatMath(String a,String b){
-		int max = 0;
+		int min = 0;
 		if(a.length()==0){
 			return a.length();
 		}
@@ -26,21 +26,18 @@ public class Main14 {
 		String[] aStr = getStringShuZu(a);
 		String[] bStr = getStringShuZu(b);
 		
-		for(int i = 0;i<cha+1;i++){
+		for(int i = 0;i<=aStr.length;i++){
 			int sum = 0;
-			if(aStr[0].equals(bStr[i])){
-				sum++;
-				for(int j=1;j<aStr.length;j++){
-					if(aStr[j].equals(bStr[i+j])){
-						sum++;
-					}
+			for(int j =i;j<=i+cha;j++){
+				if(aStr[i].equals(bStr[j])){
+					sum++;
 				}
 			}
-			max = Math.max(max, sum+cha);
+			min = Math.min(min, b.length()-(sum+cha));
 		}
 		
 		
-		return b.length()- max;
+		return min;
 	}
 	public static String[] getStringShuZu(String a){
 		String[] s = new String[a.length()];

@@ -30,8 +30,8 @@ public class Main14 {
 			int sum = 0;
 			if(aStr[0].equals(bStr[i])){
 				sum++;
-				for(int j=1;j<aStr.length;j++){
-					if(aStr[j].equals(bStr[i+j])){
+				for(int j=1;j<aStr.length;i++){
+					if(aStr[j].equals(bStr[i])){
 						sum++;
 					}
 				}
