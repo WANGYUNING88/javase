@@ -22,32 +22,23 @@ public class Main14 {
 		if(a.length()==0){
 			return a.length();
 		}
-		
 		int cha = b.length()-a.length();
 		String[] aStr = getStringShuZu(a);
 		String[] bStr = getStringShuZu(b);
 		
-		if(cha==0){
-			for(int i =0 ;i<a.length();i++){
-				 if(aStr[i].equals(bStr[i])){
-					 max++;
-				 }
-			}
-		}else{
-		
-			for(int i = 0;i<cha+1;i++){
-				int sum = 0;
-				if(aStr[0].equals(bStr[i])){
-					sum++;
-					for(int j=1;j<aStr.length;j++){
-						if(aStr[j].equals(bStr[i+j])){
-							sum++;
-						}
+		for(int i = 0;i<cha+1;i++){
+			int sum = 0;
+			if(aStr[0].equals(bStr[i])){
+				sum++;
+				for(int j=1;j<aStr.length;j++){
+					if(aStr[j].equals(bStr[i+j])){
+						sum++;
 					}
 				}
-				max = Math.max(max, sum+cha);
 			}
+			max = Math.max(max, sum+cha);
 		}
+		
 		
 		return b.length()- max;
 	}
