@@ -343,3 +343,4 @@
 2018-08-16 19:28:08,872 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AAAAAA本少的作品\javasefile\javase\student-master\src\main\resources
 2018-08-16 19:28:08,875 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2018-08-16 19:28:08,875 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AAAAAA本少的作品\javasefile\javase\student-master\src\test\resources
+2018-08-18 10:35:31,566 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
