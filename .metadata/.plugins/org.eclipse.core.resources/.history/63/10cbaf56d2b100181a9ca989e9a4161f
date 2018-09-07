@@ -1,0 +1,58 @@
+package com.wang.suanfa;
+
+import java.util.ArrayList;
+
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Map;
+import java.util.Scanner;
+import java.util.Set;
+
+
+public class Main31 {
+	
+
+	public static void main(String[] args) {
+		
+		 Scanner in = new Scanner(System.in);
+	        while (in.hasNextInt()) {
+	            int n = in.nextInt();
+	            int k = in.nextInt();
+	            int t = in.nextInt();
+	            
+	            int[] array = new int[n];
+	            for(int i = 0;i<array.length;i++){
+	            	array[i] = in.nextInt();
+	            }
+	            
+	            System.out.println(getSum(array,k, t));
+	        }
+		
+	}
+	
+	public static int getSum(int[] array ,int k,int t){
+		
+		int sum = k-1;
+		int result =0;
+		for(int i=0;i<array.length-sum;i++){
+			int num =0;
+			for(int j = i;j<=i+sum;j++){
+				for(int z =j+1;z<i+sum;z++){
+					if(array[z]==array[j]){
+						num++;
+					}
+				}
+			}
+			if(num>=t){
+				result ++;
+			}
+		}
+		return result;
+		
+	}
+	 
+	   
+}
+		
+
